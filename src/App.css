@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper {
+  background-color: #12343b;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+}
+/* .todo-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task-item {
+  margin-bottom: 10px;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+} */
