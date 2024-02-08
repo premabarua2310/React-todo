@@ -1,6 +1,6 @@
 // AddTaskForm.js
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap's CSS
+// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap's CSS
 
 const AddTaskForm = ({ addTask }) => {
     const [text, setText] = useState('');
@@ -26,7 +26,7 @@ const AddTaskForm = ({ addTask }) => {
             <select
                 value={priority}
                 onChange={(e) => setPriority(e.target.value)}
-                className={`task-input bg-${priority}`} // Bootstrap utility class to set background color
+                className={`task-input mb-15 bg-${priority}`} // Bootstrap utility class to set background color
             >
                 <option value="low">Low</option>
                 <option value="medium">Medium</option>

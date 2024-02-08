@@ -46,7 +46,8 @@ const TodoList = () => {
                 deleteTask={deleteTask}
             />
             <div className="task-count">
-                Total Tasks: {tasks.length}, Completed Tasks: {tasks.filter(task => task.completed).length}
+                <p>Total Tasks: {tasks.length} </p>
+                <p>Completed Tasks: {tasks.filter(task => task.completed).length}</p> 
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import Task from './Task';
 
 const TaskList = ({ tasks, editTask, toggleCompletion, deleteTask }) => {
     return (
-        <div className="task-list">
+        <div className="d-block">
             {tasks.map(task => (
                 <Task
                     key={task.id}
