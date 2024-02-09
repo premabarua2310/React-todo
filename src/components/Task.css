@@ -1,0 +1,107 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+}
+
+.buttons button:hover {
+    background-color: #D2B48C;
+    color: #12343b;
+    transition: all 0.2s ease;
+    border: #D2B48C;
+}
+
+.buttons button:hover > span{
+    color: #12343b;
+}
+.icon {
+    width: 40px;
+    padding-left: 5px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit, 
+.button-update {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: 15%;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 7%;
+    margin-top: 5px;
+}
+
+.button-complete {
+    color: #ff6c6c;
+    margin-right: 10px;
+}
+
+.button-delete {
+    color: #e2d029;
+    margin-right: 10px;
+}
+
+.button-edit {
+    color: #20b2aa;
+    margin-right: 10px;
+}
+.button-update {
+    color: #ffadd5;
+    margin-right: 10px;
+}
+
+.list-item {
+    display: flex;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 30px;
+}
+
+.list {
+    width: 120px;
+    background-color: #12343b;
+    border: none;
+    outline: none;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.list, .list-item span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500; 
+}
+
+@media (max-width: 435px) {
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .task-button {
+        flex-basis: 48%;
+        margin-bottom: 8px;
+    }
+
+    .icon {
+        margin-right: 0; 
+    }
+
+    .label {
+        display: inline;
+        padding-top: 15px; 
+    }
+}

@@ -1,14 +1,15 @@
 import React from 'react';
+import { Routes, Route } from "react-router-dom";
 import TodoList from './components/TodoList';
 import './App.css';
 
 const App = () => {
     return (
-        <div className='container'>
-            <div className="app-wrapper">
-                <TodoList />
-            </div>
-        </div>
+        <Routes>
+            <Route path="/" element={<TodoList />}>
+            </Route>
+        </Routes>
+
     )
 }
 
