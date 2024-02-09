@@ -24,6 +24,7 @@ This is a simple Todo List application built using React.js. The application all
 2. React Icons: Library for including popular icons in React applications.
 3. React Router: Library for handling navigation and routing in React applications.
 4. CSS: Markup and styling for the user interface.
+   
 **Server-Side (Backend):** 
 1. Local Storage: Browser storage mechanism for persisting data locally.
 
