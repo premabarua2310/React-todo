@@ -39,12 +39,12 @@ https://github.com/premabarua2310/React-todo.git
 Create a project :
 
 ```bash
-npx create-react-app my-app
+npx create-react-app todo-list-app
 ```
 Navigate to the project directory:
 
 ```bash
-cd todo-list
+cd todo-list-app
 ```
 Install dependencies:
 
