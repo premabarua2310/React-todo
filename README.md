@@ -36,11 +36,7 @@ Clone the repository:
 ```bash
 https://github.com/premabarua2310/React-todo.git
 ```
-Create a project :
 
-```bash
-npx create-react-app todo-list-app
-```
 Navigate to the project directory:
 
 ```bash
